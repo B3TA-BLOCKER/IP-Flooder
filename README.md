@@ -28,3 +28,7 @@ Run the script and follow the prompts:
 ```bash
 ./Flooder.sh
 ```
+
+**`1. Enter the number of devices you want to attack.`**
+
+**`2. For each device, enter the IP address.`**
