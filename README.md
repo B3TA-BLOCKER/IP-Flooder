@@ -23,3 +23,8 @@ cd IP-Flooder
 chmod +x Flooder.sh
 ```
 
+## 📋 Usage
+Run the script and follow the prompts:
+```bash
+./Flooder.sh
+```
