@@ -39,3 +39,7 @@ Run the script and follow the prompts:
 **Subnet Assumption :** The script assumes a /24 subnet.
 
 **Dependencies :** Ensure `ipcalc` and `hping3` are installed on your system.
+
+```bash
+sudo apt-get install ipcalc hping3
+```
