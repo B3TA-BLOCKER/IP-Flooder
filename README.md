@@ -23,33 +23,47 @@ cd IP-Flooder
 chmod +x Flooder.sh
 ```
 
+---
+
 ## 📋 Usage
+
 Run the script and follow the prompts:
+
 ```bash
 ./Flooder.sh
 ```
 
-**`1. Enter the number of devices you want to attack.`**
+1. **Enter the number of devices you want to attack.**
+2. **For each device, enter the IP address.**
 
-**`2. For each device, enter the IP address.`**
-
+---
 
 ## ⚙️ Configuration
 
-**Subnet Assumption :** The script assumes a /24 subnet.
+**Subnet Assumption**: The script assumes a /24 subnet.
 
-**Dependencies :** Ensure `ipcalc` and `hping3` are installed on your system.
+**Dependencies**: Ensure `ipcalc` and `hping3` are installed on your system.
 
 ```bash
 sudo apt-get install ipcalc hping3
 ```
 
-## 🛡️ License
-This project is licensed under the MIT License.
+---
 
+## 🛡️ License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
 
 ## 📞 Contact
+
 For support or questions, feel free to reach out:
 
-GitHub Profile
-Email: your.email@example.com
+- **GitHub Profile**: [yourusername](https://github.com/yourusername)
+- **Email**: your.email@example.com
+
+---
+```
+
+Replace `yourusername` and `your.email@example.com` with your actual GitHub username and email. You can copy and paste this entire block into your `README.md` file. Let me know if there are any other adjustments or additions you need!
