@@ -32,3 +32,10 @@ Run the script and follow the prompts:
 **`1. Enter the number of devices you want to attack.`**
 
 **`2. For each device, enter the IP address.`**
+
+
+## ⚙️ Configuration
+
+**Subnet Assumption :** The script assumes a /24 subnet.
+
+**Dependencies :** Ensure `ipcalc` and `hping3` are installed on your system.
