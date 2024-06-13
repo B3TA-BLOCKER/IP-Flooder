@@ -43,3 +43,13 @@ Run the script and follow the prompts:
 ```bash
 sudo apt-get install ipcalc hping3
 ```
+
+## 🛡️ License
+This project is licensed under the MIT License.
+
+
+## 📞 Contact
+For support or questions, feel free to reach out:
+
+GitHub Profile
+Email: your.email@example.com
