@@ -18,7 +18,7 @@ Welcome to the **IP-Flooder** repository! 🚀 This script automates the process
 Clone the repository and make the script executable:
 
 ```bash
-git clone https://github.com/yourusername/IP-Flooder.git
+git clone https://github.com/B3TA-BLOCKER/IP-Flooder.git
 cd IP-Flooder
 chmod +x Flooder.sh
 ```
