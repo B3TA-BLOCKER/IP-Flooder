@@ -7,9 +7,6 @@ get_local_network_info() {
     echo "$subnet"
 }
 
-# Get the local network information
-network_info=$(get_local_network_info)
-echo "Local network info: $network_info"
 
 clear
 echo -e "\n\n\n\n"
@@ -29,6 +26,10 @@ sleep 0.5
 
 echo -e "\n\n"
 
+
+# Get the local network information
+network_info=$(get_local_network_info)
+echo "Local network info: $network_info"
 
 # Prompt the user to enter target hosts
 echo "Enter target hosts separated by spaces:"
