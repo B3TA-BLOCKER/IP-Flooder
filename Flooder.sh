@@ -11,6 +11,25 @@ get_local_network_info() {
 network_info=$(get_local_network_info)
 echo "Local network info: $network_info"
 
+clear
+echo -e "\n\n\n\n"
+
+echo -e "\t\t\t\t\t   _____ _____    ______ _                 _           "
+sleep 0.5
+echo -e "\t\t\t\t\t  |_   _|  __ \  |  ____| |               | |          "
+sleep 0.5
+echo -e "\t\t\t\t\t    | | | |__) | | |__  | | ___   ___   __| | ___ _ __ "
+sleep 0.5
+echo -e "\t\t\t\t\t    | | |  ___/  |  __| | |/ _ \ / _ \ / _\` |/ _ \ '__|"
+sleep 0.5
+echo -e "\t\t\t\t\t   _| |_| |      | |    | | (_) | (_) | (_| |  __/ |   "
+sleep 0.5
+echo -e "\t\t\t\t\t  |_____|_|      |_|    |_|\___/ \___/ \__,_|\___|_|   "
+sleep 0.5
+
+echo -e "\n\n"
+
+
 # Prompt the user to enter target hosts
 echo "Enter target hosts separated by spaces:"
 read -a IPs
