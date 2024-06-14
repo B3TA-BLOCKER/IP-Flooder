@@ -1,13 +1,5 @@
 #!/bin/bash
 
-# Function to get the local network and subnet
-get_local_network_info() {
-    local_ip=$(ip -4 addr show scope global | grep inet | awk '{print $2}' | head -n 1)
-    subnet="${local_ip%.*}.0/24"  # Assuming a /24 subnet
-    echo "$subnet"
-}
-
-
 clear
 echo -e "\n\n\n\n"
 
@@ -26,6 +18,12 @@ sleep 0.5
 
 echo -e "\n\n"
 
+# Function to get the local network and subnet
+get_local_network_info() {
+    local_ip=$(ip -4 addr show scope global | grep inet | awk '{print $2}' | head -n 1)
+    subnet="${local_ip%.*}.0/24"  # Assuming a /24 subnet
+    echo "$subnet"
+}
 
 # Get the local network information
 network_info=$(get_local_network_info)
