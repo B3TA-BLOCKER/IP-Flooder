@@ -2,7 +2,6 @@
 
 <br>
 
-
 <div align="center">
   <p>This script is a powerful tool to perform SYN flood attacks on specified target hosts within your local network. Leveraging <code>hping3</code> for the flood attack and <code>ipcalc</code> to ensure target IPs are valid, it gives you a glimpse into the world of network testing.</p>
 </div>
@@ -24,14 +23,25 @@ sudo apt-get install hping3 ipcalc
 
 ## 🚀 Usage
 
-1. Save the script to a file, for example, `main.sh`.
-2. Make the script executable:
+1. **Clone the repository**:
+
+```sh
+git clone https://github.com/B3TA-BLOCKER/IP-Flooder.git
+```
+
+2. **Navigate to the project directory**:
+
+```sh
+cd IP-Flooder
+```
+
+3. **Make the script executable**:
 
 ```sh
 chmod +x main.sh
 ```
 
-3. Run the script:
+4. **Run the script**:
 
 ```sh
 sudo ./main.sh
@@ -69,7 +79,7 @@ This script performs the following steps:
 
 ## 📝 Disclaimer
 
-This script is provided for educational purposes only. The author is not responsible for any misuse or damage caused by using this script.
+**This script is provided for educational purposes only. The author is not responsible for any misuse or damage caused by using this script.**
 
 ---
 
