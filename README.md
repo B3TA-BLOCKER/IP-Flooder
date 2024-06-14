@@ -58,6 +58,8 @@ This script performs the following steps:
 - **Permissions**: The script uses `sudo` to run `hping3`. Ensure you have the necessary permissions to execute commands with `sudo`.
 - **Logging**: Each attack's output is logged to a file named after the target IP address, e.g., `192.168.1.1_attack.log`.
 
+---
+
 ## 📝 Disclaimer
 
 This script is provided for educational purposes only. The author is not responsible for any misuse or damage caused by using this script.
