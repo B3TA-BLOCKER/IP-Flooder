@@ -24,17 +24,17 @@ sudo apt-get install hping3 ipcalc
 
 ## 🚀 Usage
 
-1. Save the script to a file, for example, `Flooder.sh`.
+1. Save the script to a file, for example, `main.sh`.
 2. Make the script executable:
 
 ```sh
-chmod +x flood_hosts.sh
+chmod +x main.sh
 ```
 
 3. Run the script:
 
 ```sh
-sudo ./flood_hosts.sh
+sudo ./main.sh
 ```
 
 ## 💻 Script Details
@@ -83,7 +83,7 @@ This project is licensed under the [MIT License](LICENSE).
 
 For support or questions, feel free to reach out:
 
-- **GitHub Profile**: [yourusername](https://github.com/B3TA-BLOCKER)
+- **GitHub Profile**: [B3TA-BLOCKER](https://github.com/B3TA-BLOCKER)
 - **Email**: hassaanalibukhari@gmail.com
 
 ---
