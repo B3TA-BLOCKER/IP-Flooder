@@ -1,4 +1,7 @@
-# 🦠 Flood Hosts Script
+# <div align="center"><strong>[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=DotGothic16&size=41&width=800&height=60&lines=💀+IP+Flooder+💥&center=true&vCenter=true&color=FF0000)](https://git.io/typing-svg)</strong></div>
+
+<br>
+
 
 This script is a powerful tool to perform SYN flood attacks on specified target hosts within your local network. Leveraging `hping3` for the flood attack and `ipcalc` to ensure target IPs are valid, it gives you a glimpse into the world of network testing.
 
