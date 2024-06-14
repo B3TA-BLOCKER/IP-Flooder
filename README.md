@@ -3,7 +3,11 @@
 <br>
 
 
-This script is a powerful tool to perform SYN flood attacks on specified target hosts within your local network. Leveraging `hping3` for the flood attack and `ipcalc` to ensure target IPs are valid, it gives you a glimpse into the world of network testing.
+<div align="center">
+  <p>This script is a powerful tool to perform SYN flood attacks on specified target hosts within your local network. Leveraging <code>hping3</code> for the flood attack and <code>ipcalc</code> to ensure target IPs are valid, it gives you a glimpse into the world of network testing.</p>
+</div>
+
+---
 
 ## 🛠️ Prerequisites
 
