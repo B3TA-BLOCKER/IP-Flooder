@@ -15,12 +15,40 @@ Before running this script, ensure you have the following installed on your syst
 - `hping3` 📡
 - `ipcalc` 🔍
 
-Install these tools using your package manager. For example, on Ubuntu:
+Install these tools using your package manager. 
 
+### Linux (Ubuntu/Debian)
 ```sh
 sudo apt-get install hping3 ipcalc
 ```
 
+### Windows
+On Windows, you can use `choco` (Chocolatey package manager) to install `hping3`. `ipcalc` is not available directly via `choco`, but you can use other similar tools or install it manually via a Linux subsystem like WSL.
+
+1. **Install Chocolatey** (if not already installed):
+```sh
+Set-ExecutionPolicy Bypass -Scope Process -Force; [System.Net.ServicePointManager]::SecurityProtocol = [System.Net.ServicePointManager]::SecurityProtocol -bor 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))
+```
+
+2. **Install hping**:
+```sh
+choco install hping
+```
+
+For `ipcalc`, you might want to use a different approach or run it under WSL (Windows Subsystem for Linux).
+
+### macOS
+Using Homebrew, the macOS package manager:
+```sh
+brew install hping ipcalc
+```
+
+If `ipcalc` is not available directly via Homebrew, you can install `ipcalc-ng` as an alternative:
+```sh
+brew install ipcalc-ng
+```
+
+---
 ## 🚀 Usage
 
 1. **Clone the repository**:
