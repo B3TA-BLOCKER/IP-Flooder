@@ -74,7 +74,7 @@ This project is licensed under the [MIT License](LICENSE).
 
 For support or questions, feel free to reach out:
 
-- **GitHub Profile**: [yourusername](https://github.com/yourusername)
-- **Email**: your.email@example.com
+- **GitHub Profile**: [yourusername](https://github.com/B3TA-BLOCKER)
+- **Email**: hassaanalibukhari@gmail.com
 
 ---
