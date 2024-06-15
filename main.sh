@@ -25,7 +25,7 @@ get_local_network_info() {
     echo "$subnet"
 }
 
-# Get the local network information
+# Getting the local network information
 network_info=$(get_local_network_info)
 echo "Local network info: $network_info"
 
@@ -33,7 +33,7 @@ echo "Local network info: $network_info"
 echo "Enter target hosts separated by spaces:"
 read -a IPs
 
-pids=()  # Array to hold PIDs of background processes
+pids=()  # Array(pids) to hold PIDs of background processes
 
 for IP in "${IPs[@]}"
 do
@@ -59,4 +59,4 @@ do
     wait "$pid"
 done
 
-echo "All attacks completed."
+echo -e "\n\n All attacks completed!"
